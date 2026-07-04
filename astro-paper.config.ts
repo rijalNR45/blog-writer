@@ -3,13 +3,13 @@ import { defineAstroPaperConfig } from "./src/types/config";
 export default defineAstroPaperConfig({
   site: {
     url: "https://astro-paper.pages.dev/",
-    title: "AstroPaper",
-    description: "A minimal, responsive and SEO-friendly Astro blog theme.",
-    author: "Sat Naing",
+    title: "Keshav Lekhxa",
+    description: "Welcome to my blog! My name is KESHAV RIJAL. I created this blog as a platform to share my thoughts, experiences, and knowledge about Life, Law, Economy, Society, Psychology, Politics, and sometimes about Football Club Barcelona. Whether you're a fellow professional in the field, a student, or just someone interested in learning more, I hope you'll find something of value here. I'll be posting regularly on a variety of topics, so be sure to check back often to stay updated. Thanks for visiting! ",
+    author: "Keshav Rijal",
     profile: "https://satna.ing",
     ogImage: "default-og.jpg",
     lang: "en",
-    timezone: "Asia/Bangkok",
+    timezone: "Asia/Kathmandu",
     dir: "ltr",
   },
   posts: {

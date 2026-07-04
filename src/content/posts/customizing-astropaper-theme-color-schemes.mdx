@@ -1,103 +1,83 @@
 ---
-author: Sat Naing
-pubDatetime: 2022-09-25T15:20:35Z
-modDatetime: 2026-05-17T04:57:06.476Z
-title: Customizing AstroPaper theme color schemes
+author: Nirajan Rijal
+pubDatetime: 2026-07-04T23:06:00Z
+title: "रेप ट्रमा सिन्ड्रोम (RTS): यौन हिंसापछिको मानसिक आघात र न्याय प्रणाली"
 featured: false
 draft: false
 tags:
-  - color-schemes
+  - mental-health
+  - legal-awareness
   - docs
-description:
-  How you can enable/disable light & dark mode; and customize color schemes
-  of AstroPaper theme.
+description: जबरजस्ती करणी र अन्य प्रकारका यौन अपराधमा पीडितको भावनात्मक, शारीरिक, र व्यवहारिक प्रतिकृया (Rape Trauma Syndrome) बारे एक चर्चा।
 ---
-import ResponsiveTable from '@/components/ResponsiveTable.astro';
 
-This guide covers how to enable or disable light and dark mode, and how to customize the color scheme for the entire site.
+जबरजस्ती करणी र अन्य प्रकारका यौन अपराधमा पीडितको भावनात्मक, शारीरिक, र व्यवहारिक प्रतिकृया (reaction) **RAPE TRAUMA SYNDROME (RTS)** हो। यो एक प्रकारको *Post Traumatic Stress Disorder (PTSD)* हो। 
 
-## Table of contents
+यो विशेषगरी इच्छा विपरीतका यौन सम्बन्धी कार्यहरुबाट उत्पन्न हुन्छ। यौनजन्य कसूर तथा अन्य अनइच्छित यौनजन्य कार्यहरु व्यक्तिको शरीर र आत्मसम्मान् माथि समेत आघात पार्ने कुराहरु हुन्। सोच्दै नसोचेको अनपेक्षित तरिकाबाट बालबालिका, महिला वा अन्य जो कोहीको शरीर र आत्मसम्मान् माथि आक्रमण हुँदा मानसिक विक्षिप्तताको अवस्थामा पुग्न सक्दछ। यस्तो अवस्था नै RAPE TRAUMA SYNDROME को अवस्था हो।
 
-## Enable/disable light & dark mode
+> **इतिहास:** RAPE TRAUMA SYNDROME शब्द सन् १९७४ मा नर्स अन्ना वोल्बर्ट बर्गेस (Anna Wolbert Burgess) र समाजशास्त्री लिन्डा लिटल होल्मस्ट्रोम (Lynda Lytle Holmstrom) ले प्रयोगमा ल्याएका थिए।
 
-AstroPaper theme includes light and dark mode by default. This default behavior can be disabled in `astro-paper.config.ts`:
+सबै पीडितले एकै प्रकारले TRAUMA का लक्षणहरु देखाउँछन् भन्ने हुँदैन। एकै प्रकारको कसूर/हिंसामा पनि दुई जना पीडितले फरक-फरक लक्षणहरु देखाउन सक्दछन्। यो व्यक्ति विशेष कुरा हो। कानूनले परिभाषा गरेको जबरजस्ती करणी र अन्य यौनजन्य कसूरमा मात्र नभएर कानूनले नचिनेका यौन सम्बन्धी इच्छा विपरीतका अन्य कार्यहरुको प्रतिकृया स्वरुप पनि RAPE TRAUMA SYNDROME (RTS) देखिन्छ।
 
-```ts file="astro-paper.config.ts"
-export default defineAstroPaperConfig({
-  // ...
-  features: {
-    lightAndDarkMode: true, // [!code highlight]
-    // ...
-  },
-});
-```
+RTS अनुभव गर्दा पीडितको शारीरिक, मानसिक र मनोवैज्ञानिक स्वास्थ्यमा असर पर्छ। एकजना पीडितले महसुस गरेको कुरा अरूले अनुभव गरेको कुरासँग सम्बन्धित हुन पनि सक्छ वा नहुन पनि सक्छ। अर्को व्यक्तिले त्यसलाई बोध गर्न पनि सक्छ नगर्न पनि सक्छ। तर हरेक पीडितले महसुस गर्ने भावनाहरू वास्तविक हुन्। जुन व्यक्तिलाई जे भयो, त्यो उसको लागि वास्तविक हो—भलै अरुले त्यसलाई बुझुन् वा नबुझुन्।
 
-To disable `light & dark mode`, set `features.lightAndDarkMode` to `false`. When disabled, the site will use only the light color scheme defined in `src/styles/theme.css`.
+---
 
-## Customize color schemes
+## RAPE TRAUMA SYNDROME को चरणहरु र लक्षणहरु
 
-Both light and dark color schemes of AstroPaper theme are defined in `src/styles/theme.css`.
+### A. Acute Phase (तीव्र चरण)
+यो चरण यौनहिंसा भएपश्चात तुरुन्त सुरु हुन्छ र सामान्यतया केही दिनदेखि केही हप्ता सम्म रहन्छ। यस चरणमा पीडितले विभिन्न प्रकारका प्रतिक्रिया देखाउन सक्छन्, जसलाई मुख्यतया तीनवटा श्रेणीमा वर्गीकृत गर्ने गरिएको पाइन्छ:
 
-```css file="src/styles/theme.css"
-/* Light theme values */
-:root,
-[data-theme="light"] {
-  --background: #fdfdfd;
-  --foreground: #282728;
-  --accent: #006cac;
-  --accent-foreground: #ffffff;
-  --muted: #e6e6e6;
-  --muted-foreground: #6b7280;
-  --border: #ece9e9;
-}
+1. **प्रकट प्रतिक्रिया (Expressed Reaction):** यो अवस्थामा पीडित खुलेर भावुक हुन्छ। उनीहरू उत्तेजित वा अत्यंतै चिन्तित देखिन सक्छन्। पीडितहरु रुने, चिच्याउने गर्दछन्। पीडितलाई अत्यास लाग्ने पनि हुन सक्छ।
+2. **नियन्त्रणमा रहेको प्रतिक्रिया (Controlled Reaction):** यस अवस्थामा पीडितले कुनै भावना देखाउँदैनन् र यस्तो व्यवहार गर्छन् जस्तो केही भएको छैन ("nothing happened" and "everything is fine")। उनीहरू शान्त देखिए तापनि त्यो व्यवहार वास्तवमा मानसिक आघात वा ‘शक’ हुन सक्छ।
+3. **स्तब्धता र अविश्वास (Shocked Disbelief):** यस अवस्थामा पीडितमा मानसिक भ्रमको तीव्र भावना देखिन्छ। उनीहरूले ध्यान केन्द्रित गर्न, निर्णय गर्न वा दैनिक कार्य गर्न गाह्रो महसुस गर्न सक्छन्। यौनजन्य हिंसाको विवरण राम्ररी सम्झन नसक्ने अवस्था पनि हुन सक्छ।
 
-/* Dark theme values */
-[data-theme="dark"] {
-  --background: #212737;
-  --foreground: #eaedf3;
-  --accent: #ff6b01;
-  --accent-foreground: #ffffff;
-  --muted: #343f60;
-  --muted-foreground: #afb9ca;
-  --border: #ab4b08;
-}
-```
+### B. बाह्य समायोजन चरण (The Outward Adjustment Phase)
+यो चरणमा पीडित व्यक्ति बाहिरी रूपमा "सामान्य" जीवनतर्फ फर्किएको देखिन्छ, तर भित्रभित्रै उनीहरु ठूलो मानसिक संघर्ष भोगिरहेका हुन्छन्। यस चरणमा पाँचवटा प्रमुख सामना गर्ने तरिकाहरू (**coping techniques**) देखिन्छन्:
 
-The `:root` and `[data-theme="light"]` selectors define the light color scheme, while `[data-theme="dark"]` defines the dark color scheme.
+* **न्यूनिकरण (Minimization):** "सबै ठिकै छ" वा "अझ नराम्रो हुन सक्थ्यो" भनेर चित्त बुझाउने गर्ने।
+* **नाटकीयता (Dramatization):** आक्रमणबारे बारम्बार कुरा गर्ने र त्यो घटनाले नै जीवनलाई अत्याधुनिक रुपमा प्रभाव पार्ने।
+* **दमन (Suppression):** घटना भएको स्वीकार नगर्ने, त्यसबारे कुरै नगर्ने, केही भएको छैन भन्ने जस्तो व्यवहार गर्ने।
+* **व्याख्या (Explanation):** घटनाको विश्लेषण गर्ने— आफूले के गरेँ, बलात्कारीले के सोचिरहेको थियो वा के महसुस गरिरहेको थियो भन्ने कुरा बुझ्ने प्रयास गर्ने।
+* **पलायन (Flight):** पीडाबाट भाग्न खोज्ने— बसोबास परिवर्तन गर्ने, जागिर फेर्ने, आफ्नो रूपरंग वा सम्बन्धहरू परिवर्तन गर्ने आदि।
 
-To customize your own color scheme, specify your light colors inside `:root, [data-theme="light"]`, and your dark colors inside `[data-theme="dark"]`.
+यस बाह्य समायोजन चरणमा धेरै लक्षणहरू वा व्यवहारहरू देखिन्छन्, जसमा निम्न कुराहरू समावेश छन्:
 
-Here is a detailed explanation of each color property:
+* निरन्तर चिन्ता र तीव्र मूड परिवर्तन
+* असहायताको अनुभूति, लगातार डर वा फोबिया
+* डिप्रेशन (मनोविक्षिप्तता) र अत्यधिक रिस वा आक्रोश
+* निद्रामा समस्या (डर लाग्ने सपना, अनिद्रा आदि)
+* खानपानमा समस्या (वाकवाकी, बान्ता, अत्यधिक खानपिन आदि)
+* इन्कार (घटना स्वीकार नगर्ने) र साथीसँगी, परिवार वा गतिविधिबाट अलग रहने प्रवृत्ति
+* अति संवेदनशीलता (Hypervigilance)
+* घर बाहिर जान वा आक्रमण सम्झाउने ठाउँहरूमा जान हिचकिचाउने
+* यौनसम्बन्धी समस्या र ध्यान केन्द्रित गर्न गाह्रो हुने
+* विगतका घटनाहरूको झल्को आउनु (Flashbacks)
 
-<ResponsiveTable variant="minimal" class="max-sm:-mx-4 [&_td]:first-of-type:text-nowrap">
+### C. समाधान चरण (The Resolution Phase)
+यो चरणमा यौनहिंसा वा यौनजन्य कसूर वा अन्य अनिच्छित यौनजन्य कार्यहरु अब पीडितको जीवनको मुख्य केन्द्रविन्दु रहँदैन। उनीहरू स्वीकार गर्छन् कि आक्रमणको स्मृति कहिल्यै मेटिँदैन, तर समयसँगै त्यसको पीडा र नकारात्मक प्रभावहरू घट्दै जान्छन्। धेरैजसो अवस्थामा पीडितले उक्त घटना आफ्नो जीवनको एक हिस्सा हो भनेर स्वीकार गर्न थाल्छन् र अगाडि बढ्ने निर्णय गर्छन्।
 
-| Color Property        | Definition & Usage                                                    |
-| --------------------- | --------------------------------------------------------------------- |
-| `--background`        | Primary color of the website. Usually the main background.            |
-| `--foreground`        | Secondary color of the website. Usually the text color.               |
-| `--accent`            | Accent color. Used for links, hover states, and interactive elements. |
-| `--accent-foreground` | Foreground color displayed on top of `--accent` backgrounds.          |
-| `--muted`             | Muted background color. Used for cards, tags, and hover states.       |
-| `--muted-foreground`  | Text color displayed on top of `--muted` backgrounds.                 |
-| `--border`            | Border color. Used for dividers and visual separation.                |
+> **महत्वपूर्ण नोट:** यी विभिन्न चरणहरू सिधा रेखामा (linear) अगाडि बढ्ने खालका हुँदैनन्। पहिलोबाट दोस्रो र दोस्रोबाट तेस्रो चरणमा सरासर पुगिन्छ भनेर भन्न सकिँदैन। पीडित व्यक्ति आफ्नो निको हुने प्रक्रियामा अगाडि बढ्न पनि सक्छन् र कहिलेकाहीँ पुरानै चरणमा पछाडि पनि फर्किन सक्छन्। हरेक व्यक्तिको अनुभव र यात्रा भिन्न हुन्छ।
 
-</ResponsiveTable>
+---
 
-Here is an example of changing the light color scheme:
+## न्याय प्रशासन र RAPE TRAUMA SYNDROME (RTS)
 
-```css file="src/styles/theme.css"
-/* ... */
-:root,
-[data-theme="light"] {
-  --background: #f6eee1;
-  --foreground: #012c56;
-  --accent: #e14a39;
-  --accent-foreground: #ffffff;
-  --muted: #efd8b0;
-  --muted-foreground: #6b7280;
-  --border: #dc9891;
-}
-/* ... */
-```
+यौनजन्य कसूरको अनुसन्धान, अभियोजन, सुनुवाई र फैसला कार्यान्वयन गर्ने सरोकारवालाहरुमा RAPE TRAUMA SYNDROME (RTS) को सचेत र सम-भावपूर्ण ज्ञान हुन अति आवश्यक छ।
 
-> Check out some [predefined color schemes](https://astro-paper.pages.dev/posts/predefined-color-schemes/) AstroPaper has already crafted for you.
+1. **अनुसन्धान तहमा:** यौनजन्य अपराधको अनुसन्धान गर्ने निकायले जाहेरी दरखास्त लिँदा पीडितमा RTS का लक्षणहरु के-के छन् खुलाउन सहयोग गर्न सक्छन्। पीडितको घटनाविवरण कागज वा घटनाको बारे सुनेको, देखेको, वा थाहा पाएका व्यक्तिहरुको बयानमा समेत पीडितमा देखिएका RTS का लक्षणहरुबारे प्रश्न सोधी आवश्यक तथ्यहरु उल्लेख गर्न सकिन्छ।
+2. **अभियोजन तहमा:** सरकारी वकीलले पीडित प्रभाव प्रतिवेदन तयार पार्दा, अन्तरिम क्षतिपूर्ति माग गर्दा, र अभियोग मागदावी लिँदा पीडितमा देखिएको RTS का लक्षणहरुलाई ध्यानमा राख्नु वाञ्छनीय हुन्छ। सरकारी साक्षीहरुको अदालतमा बकपत्र गराउँदा समेत RTS सम्बन्धी प्रश्न सोध्न सकिन्छ।
+3. **बकपत्र र अदालतमा:** RTS ले गर्दा पीडितहरु प्रतिकुल बकपत्र गर्ने र बकपत्र गर्दा घटनाबारे सबै कुरा खुलाउन असमर्थ हुने समेत भएकाले सरकारी वकील, प्रतिवादीका वकील र इजलास विशेषरुपमा सचेत हुनुपर्छ। 
+
+अदालतले पीडितलाई अन्तरिम क्षतिपूर्ति दिलाउने, पीडक उपर कसूर ठहर गर्ने, र पीडितलाई क्षतिपूर्ति भराउने कार्यहरूमा RTS का लक्षणहरुलाई केन्द्रविन्दुमा राखेमा मात्र **पीडित-मैत्री न्याय प्रवाह** हुन सक्दछ।
+
+---
+
+*यो लेखको उद्देश्य RTS सम्बन्धी सामान्य जानकारी प्रदान गर्नु मात्र हो।*
+
+### थप अध्ययनको लागि:
+* क. *Modi’s Medical Jurisprudence and Toxicology*
+* ख. *WHO Guidelines for Medico-legal Care for Victims of Sexual Violence*
+* ग. *The Diagnostic and Statistical Manual of Mental Disorders (DSM)*
+
+**चरैवेती। चरैवेती।।**
